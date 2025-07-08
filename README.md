@@ -1,6 +1,11 @@
-# CTFd Challenge Scraper
+# CTFd Challenge Writeup Generator & Lister
 
-This Python tool scrapes challenges, categories, descriptions, and downloadable files from a CTFd-based Capture The Flag platform. It organizes everything into a clean folder structure for offline solving and team collaboration.
+This CLI tool scrapes challenge data from a [CTFd](https://ctfd.io)-based Capture The Flag (CTF) platform and can:
+- 📄 Generate Markdown writeup templates
+- 📦 Download challenge files
+- 📝 Include challenge descriptions
+- 📋 Print a bullet-point list of challenges + categories (optional)
+- 💾 Organize everything into a clean folder structured by category
 
 ## 🛠 Requirements
 - Python 3.7+
